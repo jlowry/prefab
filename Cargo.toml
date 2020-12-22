@@ -4,3 +4,7 @@ members = [
     "legion-transaction",
     "prefab-format",
 ]
+
+[patch.crates-io]
+serde-diff = { git = "https://github.com/amethyst/serde-diff", branch = "v0.4.0" }
+
